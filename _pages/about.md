@@ -19,7 +19,7 @@ Research interest
 ====================
 My research interest lies in the domain of **#security**, **#privacy**, and **#applied crypto**. Recently I have started doing research as part of two projects 
 on *Next Generation Compromised Credentials Checking (C3)* and *Privacy issues for victims in Intimate Partner Violence (IPV)*. 
-I am closing working with [Prof. Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/) and [Prof. Thomas Ristenpart](https://rist.tech.cornell.edu/) in these projects.
+I am closing working under [Prof. Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/) and [Prof. Thomas Ristenpart](https://rist.tech.cornell.edu/) in these projects.
 
 
 Before starting my PhD research journey in security and privacy, I have worked previously on a diverse range of areas e.g.,   `secure-coding-practices`, `Bioinformatics`, 
