@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Mazharul Islam"
 title_separator          : "-"
-name                     : &name "Mazharul Islam"
-description              : &description "PhD student -- University of Wisconsin-Madison"
+name                     :  "Mazharul Islam"
+description              : "PhD student -- University of Wisconsin-Madison"
 url                      : https://islamazhar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "islamazhar.github.io"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=OY6gd7wAAAAJ&hl=en"
-  email            :
+  email            :  "mislam9@wisc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
