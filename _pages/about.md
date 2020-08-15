@@ -12,6 +12,10 @@ redirect_from:
 I am a first year PhD student at University of Wisconsin-Madison and also
 a member of security and privacy group *madS&P* @UW-Madison. 
 
+Research interests
+====================
+My research interestes lies in the domain of security, privacy
+
 Recent News
 ===============
   - <code> Jan - 2020</code>: Journal paper on <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-6519-y">species
