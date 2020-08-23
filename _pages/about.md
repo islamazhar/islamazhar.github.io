@@ -18,12 +18,12 @@ Here is my full [CV](/files/Mazharul_CV.pdf).
 Research interest
 ====================
 My research interest lies in the domain of **#security**, **#privacy**, **#applied_crypto**, **#program_analysis**. Recently I have started doing research as part of two projects 
-on *Next Generation Compromised Credentials Checking (C3)* and *Privacy issues for victims in Intimate Partner Violence (IPV)*. 
+on *Next Generation Compromised Credentials Checking Service (C3S)* and *Privacy issues for victims in Intimate Partner Violence (IPV)*. 
 I am closely working under [Prof. Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/) and [Prof. Thomas Ristenpart](https://rist.tech.cornell.edu/) in these two projects.
 
 
 Before starting my PhD research journey in security and privacy, I have worked previously on a diverse range of areas e.g.,   `insecure-coding-practices`, `Bioinformatics`, 
-   `Bio-sonar inspired simulator`, and `zero day website exploits`. These research work have result in authoring 4 first author peer review publications. 
+   `Bat inspired bio-sonar simulator`, and `zero day exploits`. These research work have result in authoring 4 first author peer reviewed publications. 
    See my publication [page](/publications) for details.
 
 What's New
