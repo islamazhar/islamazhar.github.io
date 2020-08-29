@@ -22,8 +22,8 @@ on *Next Generation Compromised Credentials Checking Service (C3S)* and *Privacy
 I am closely working under [Prof. Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/) and [Prof. Thomas Ristenpart](https://rist.tech.cornell.edu/) in these two projects.
 
 
-Before starting my PhD research journey in security and privacy, I have worked previously on a diverse range of areas e.g.,   `insecure-coding-practices`, `Bioinformatics`, 
-   `Bat inspired bio-sonar simulator`, and `zero day exploits`. These research work have result in authoring 4 first author peer reviewed publications. 
+Before starting my PhD research journey in security and privacy, I have worked previously on a diverse range of areas e.g.,   `security anti-patterns`, `Bioinformatics`, 
+   `Bat inspired bio-sonar`, and `zero day exploits`. These research work have result in authoring 4 first author peer reviewed publications. 
    See my publication [page](/publications) for details.
 
 What's New
