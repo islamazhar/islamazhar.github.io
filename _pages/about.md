@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a graduate (Masters/Ph.D) student at University of Wisconsin-Madison in computer science department. I am also
+I am a graduate (Ph.D) student at University of Wisconsin-Madison in computer science department. I am also
 a member of security and privacy group *madS&P* @UW-Madison.  
 I earned my Bachelor of Science (B.Sc.) in Computer Science and Engineering from Bangladesh University of Engineering and Technology.
 
