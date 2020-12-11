@@ -21,7 +21,7 @@ My research interest lies in the domain of **#security**, **#privacy**, **#appli
 
 Currently I am working as part of two projects 
 on *Next Generation Compromised Credentials Checking Service (C3S)* and *Privacy issues for victims in Intimate Partner Violence (IPV)*. 
-I am closely working under [Prof. Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/) and [Prof. Thomas Ristenpart](https://rist.tech.cornell.edu/) in these two projects.
+I am closely working under [Prof. Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/)   in these two projects.
 
 
 Before starting my graduate research journey in security and privacy, I have worked previously on a diverse range of areas e.g.,   `security anti-patterns`, `Bioinformatics`, 
