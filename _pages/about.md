@@ -10,23 +10,23 @@ redirect_from:
 
 
 I am a graduate (Ph.D) student at University of Wisconsin-Madison in computer science department. I am also
-a member of security and privacy group *madS&P* @UW-Madison.  
+a member of security and privacy group <a style="color:red;" href="https://twitter.com/madison_sp?lang=en">madS&P @UW-Madison</a> 
+
 I earned my Bachelor of Science (B.Sc.) in Computer Science and Engineering from Bangladesh University of Engineering and Technology.
 
 Here is my full [CV](/files/Mazharul_CV.pdf).
 
 Research interest
 ====================
-My research interest lies in the domain of **#security**, **#privacy**, **#applied_crypto**, **#program_analysis**. 
+My research interest lies in the domain of **#security**, **#privacy**, **#applied_cryptography**.
 
 Currently I am working as part of two projects 
 on *Next Generation Compromised Credentials Checking Service (C3S)* and *Privacy issues for victims in Intimate Partner Violence (IPV)*. 
 I am closely working under [Prof. Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/)   in these two projects.
 
 
-Before starting my graduate research journey in security and privacy, I have worked previously on a diverse range of areas e.g.,   `security anti-patterns`, `Bioinformatics`, 
-   `Bat inspired bio-sonar`, and `zero day exploits`. These research work have resulted in authoring 4 first author peer reviewed publications. 
-   See my publication [page](/publications) for details.
+Before starting my graduate research journey in security and privacy, I have worked previously on a diverse range of areas such as `bioinformatics` , `genomics`, `software security`, and `zero day exploits`. These research work have resulted in authoring 4 first author peer reviewed publications. 
+See my publication [page](/publications) for details.
 
 What's New
 ===============
