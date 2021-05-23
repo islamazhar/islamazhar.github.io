@@ -1,5 +1,2 @@
----
-title: "University of Wisconsin-Madison"
-collection: education
----
+- University of Wisconsin-Madison
 
