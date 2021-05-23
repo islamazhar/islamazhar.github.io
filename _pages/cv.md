@@ -32,14 +32,19 @@ or [resume](../files/Mazharul_CV.pdf).
 </ul>
 
 <br/>
-    <span style="color:black; font-size:17px"><b><a href="http://cse.buet.ac.bd" target="_blank"><font color="brown" size="5">Bangladesh University of Engineering and Technology</font></b></span><br/>
-    Bachelor of Science (B.Sc.) in Computer Science and Engineering</a> <br/>
+    <span style="color:black; font-size:17px"><b>
+    <a href="http://cse.buet.ac.bd" target="_blank">
+    <font color="brown" size="5">Bangladesh University of Engineering and Technology</font></a>
+    </b></span><br/>
+    Bachelor of Science (B.Sc.) in Computer Science and Engineering<br/>
     Period of Study:  2012 - 2017 <br/>
     CGPA: <b>3.73/4.00</b> <br>
-    Position: Among to 20%. <br>
+    Position: Among top 20%. <br>
     Thesis Supervisor: <a href="https://sites.google.com/site/abmalimalislam/home" target="_blank">Dr. A. B. M. Alim Al Islam</a> <br/>
 <br/>
-    <span style="color:black; font-size:17px"><b><a href="https://www.dhakacitycollege.edu.bd/" target="_blank"><font color="brown" size="5">Dhaka City College</font></a></b></span><br/>
+    <span style="color:black; font-size:17px"><b>
+    <a href="https://www.dhakacitycollege.edu.bd/" target="_blank"><font color="brown" size="5">Dhaka City College</font></a>
+    </b></span><br/>
     Higher Secondary Certificate (HSC) <br>
     GPA: <b>5.00/5.00</b> scale <br/>
 <br/>
