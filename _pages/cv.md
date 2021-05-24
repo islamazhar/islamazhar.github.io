@@ -19,7 +19,7 @@ or [resume](../files/Mazharul_CV.pdf).
     Advisor: <a href="https://pages.cs.wisc.edu/~chatterjee/" target="_blank">Dr. Rahul Chatterjee</a>, Lab: <a href="http://madsp.cs.wisc.edu/" target="_blank">madS&P @UW-Madison</a> <br/>
 <br/>
     <span style="color:black; font-size:17px"><b><a href="https://www.cs.wisc.edu/" target="_blank"><font color="brown" size="5">Univeristy of Wisconsin-Madison</font></a></b></span><br/>
-    Master in Computer Science (joint program with Ph.D.) <br>
+    Masters in Computer Science (joint program with Ph.D.) <br>
     Period of Study: September 2020- Present <br/>
     CGPA: <b>3.6/4.0</b> <br>
     Graduate course work completed: (3 course work left)
@@ -39,7 +39,7 @@ or [resume](../files/Mazharul_CV.pdf).
     Bachelor of Science (B.Sc.) in Computer Science and Engineering<br/>
     Period of Study:  2012 - 2017 <br/>
     CGPA: <b>3.73/4.00</b> <br>
-    Position: Among topxz 20%. <br>
+    Position: Among top 20%. <br>
     Thesis Supervisor: <a href="https://sites.google.com/site/abmalimalislam/home" target="_blank">Dr. A. B. M. Alim Al Islam</a> <br/>
 <br/>
     <span style="color:black; font-size:17px"><b>
