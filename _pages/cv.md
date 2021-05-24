@@ -22,13 +22,13 @@ or [resume](../files/Mazharul_CV.pdf).
     Master in Computer Science (joint program with Ph.D.) <br>
     Period of Study: September 2020- Present <br/>
     CGPA: <b>3.6/4.0</b> <br>
-    Courses taken: (3 course work left)
+    Graduate course work completed: (3 course work left)
 <ul>
   <li><a href='https://pages.cs.wisc.edu/~justhsu/teaching/current/cs763/syllabus/'> CS 763: Security and Privacy in Data Science. </a> </li>
   <li><a href='https://pages.cs.wisc.edu/~loris/cs703/'> CS 703: Program Verification and Synthesis. </a> </li>
-  <li><a href='http://pages.cs.wisc.edu/~yliang/cs760_spring21/schedule.html'>CS 760: Advance Machine Learning.</a></li>
+  <li><a href='http://pages.cs.wisc.edu/~yliang/cs760_spring21/schedule.html'>CS 760: Machine Learning.</a></li>
   <li><a href='https://canvas.wisc.edu/courses/190749/'> CS 838: Topics in Security and Privacy.</a></li>
-  <li><a href='https://canvas.wisc.edu/courses/242595'> CS 770: Human Computer Interaction.</a></li>
+  <li><a href='https://canvas.wisc.edu/courses/242595'> CS/Psych 770: Human-Computer Interaction.</a></li>
 </ul>
 
 <br/>
