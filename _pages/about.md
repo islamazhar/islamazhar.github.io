@@ -20,7 +20,7 @@ Research interest
 ====================
 My research interest lies in the domain of **#security**, **#privacy**, **#applied_cryptography**.
 
-Currently I am working on two projects -- one which is
+Currently I am working on two projects -- one of them is
 on *Next Generation Compromised Credentials Checking Service (C3S)* and the other one is related to *Privacy issues of victims in intimate partner violence (IPV)*. 
 I am closely working under [Prof. Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/) in these two projects.
 

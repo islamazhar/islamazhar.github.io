@@ -39,7 +39,7 @@ or [resume](../files/Mazharul_CV.pdf).
     Bachelor of Science (B.Sc.) in Computer Science and Engineering<br/>
     Period of Study:  2012 - 2017 <br/>
     CGPA: <b>3.73/4.00</b> <br>
-    Position: Among top 20%. <br>
+    Position: Among topxz 20%. <br>
     Thesis Supervisor: <a href="https://sites.google.com/site/abmalimalislam/home" target="_blank">Dr. A. B. M. Alim Al Islam</a> <br/>
 <br/>
     <span style="color:black; font-size:17px"><b>
