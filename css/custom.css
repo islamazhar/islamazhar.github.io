@@ -1,0 +1,11 @@
+div.image_container {
+    background-color: #999;
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+div.image_container img {
+    height: 100%;
+}
