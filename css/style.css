@@ -28,7 +28,7 @@ Author E-mail: naimlasker@gmail.com
 body {
   line-height: 26px;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Times New Roman", sans-serif;
   font-weight: 400;
   color: #777777;
   background: url(../img/body-bg.png) no-repeat center; }
@@ -1164,7 +1164,7 @@ button:focus {
   .contact_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
-    color: "Roboto", sans-serif;
+    color: "Times New Roman", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
     color: #000000; }
@@ -1182,7 +1182,7 @@ button:focus {
     line-height: 26px;
     color: #999;
     border: 1px solid #eeeeee;
-    font-family: "Roboto", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     border-radius: 0px;
     padding-left: 20px; }
     .contact_form .form-group .form-control:focus {
@@ -1232,7 +1232,7 @@ button:focus {
       text-align: center;
       color: #4458dc;
       padding-bottom: 10px;
-      font-family: "Roboto", sans-serif; }
+      font-family: "Times New Roman", sans-serif; }
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
@@ -1477,7 +1477,7 @@ button:focus {
   .element-wrap {
     margin-top: 30px; } }
 b, sup, sub, u, del {
-  color: #f8b600; }
+  color: black; }
 
 h1 {
   font-size: 36px; }
@@ -1586,12 +1586,12 @@ h6 {
   border: 1px solid transparent; }
 
 .genric-btn.primary:hover {
-  color: #f8b600;
-  border: 1px solid #f8b600;
+  color: black;
+  border: 1px solid black;
   background: #fff; }
 
 .genric-btn.primary-border {
-  color: #f8b600;
+  color: black;
   border: 1px solid #f8b600;
   background: #fff; }
 
@@ -2413,7 +2413,7 @@ h6 {
   transition: all 0.3s ease 0s;
   line-height: 28px;
   min-height: 28px;
-  font-size: 12px;
+  font-size: 14px;
   padding-left: 45px; }
 
 .form-select .nice-select .list .option.selected {
