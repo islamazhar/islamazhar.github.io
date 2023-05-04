@@ -9,3 +9,12 @@ div.image_container {
 div.image_container img {
     height: 100%;
 }
+.table-wrapper {
+    max-height: 150px;
+    overflow: auto;
+    display:inline-block;
+  }
+  .table-earnings {
+      background: #F3F5F6;
+  }
+  
