@@ -3356,6 +3356,11 @@ h6 {
 .tagTopic{
    color: inherit; 
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* End Footer Area css
 ============================================================================================ */
