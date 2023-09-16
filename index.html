@@ -3,7 +3,7 @@
    <head>
       <!-- Required meta tags -->
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="icon" href="img/favicon.png" type="image/png">
       <title>Mazharul Islam</title>
       <!-- Bootstrap CSS -->
@@ -146,18 +146,18 @@
 
                   </div>
                   <!-- Research summary  -->
-                  <div class="section-top-border">
+                  <div class="section-top-border" id="projects">
                      <h3>Research summary</h3>
                      <p>
                         My research  goal is to design secure systems and develop easy-to-use tools for online abuse detection and prevention.
                         To achieve this, I develop novel applied cryptography and machine learning techniques, and rely on empirically derived useful security policy rules.
                      </p>
                     <p>
-                      My primary research work is in the area of <b>online user authentication</b>. Specifically my work investigates providing security to users' online account against attackers without sacrificing their usability. I have worked on both <b>password and passworldess user authentication </b>.
+                      My primary research work is in the area of <b>online user authentication</b>. More specifically, my work investigates providing security to users' online account against attackers without sacrificing their usability. I have worked on both <b>password and passworldess user authentication </b>.
                     </p>
                      My prior work have focus on stopping attacker from launching password guessing attacks (<a href="#migp">USENIX  Security '22a</a>, <a href="#gossamer">'22b</a>, <a href="#arana">'23</a>) Currently, I am working on developing robust defenses for malicious login detection.
                      I have been working with  <a href="https://pages.cs.wisc.edu/~chatterjee/">Prof. Rahul Chatterjee</a> (my Ph.D. advisor) and <a href="https://rist.tech.cornell.edu/papers.html" target="_blank"> Prof. Thomas Ristenpart </a> (from Cornell Tech) on these projects. </p>
-                    <p>I have worked on developing <i>MPC-friendly</i> schemes that can enable privacy preserving online face anti-spoofing detection --- typically used in online face authentication/verification <a href="#compact"> (under-submission)</a>. Currently I am working on account recovery problem in FIDO2 based passworldless user authentication. I have been working with <a href="https://usa.visa.com/about-visa/visa-research/people.html#3581b4ac33"> Visa Research's </a> <i>Identity and Authentication Team </i> in this line of work.
+                    <p>I have worked on developing <i>MPC-friendly</i> schemes that can enable privacy preserving online face anti-spoofing detection --- typically used in online face authentication/verification <a href="#compact"> (under-submission)</a>. Currently I am working on account recovery problem in FIDO2 based passworldless user authentication. I have been collaborating with <a href="https://usa.visa.com/about-visa/visa-research/people.html#3581b4ac33"> Visa Research's </a> <i>Identity and Authentication Team </i> in this line of work. I have also interned with them two times in  summer '22, and '23.
                      </p>
                   </div>
                </div>
@@ -181,6 +181,7 @@
                               <div class=table-wrapper>
                                  <table>
                                     <tbody>
+                                       <code>
                                        <tr>
                                           <td><b>[Sep 23]</b> Awarded student research grants from UW-Madison. </td>
                                        </tr>
@@ -192,6 +193,7 @@
                                        </tr>
                                        <td><b>[May 23]</b> I returned to Visa Research this summer to work on account recovery problem in passwordless user authentication! </td>
                                        </tr>
+                                    </code>
                                     </tbody>
                                  </table>
                               </div>
@@ -271,7 +273,7 @@
                         <div class="country">Research Intern, <br> May 2023 - August 2023 </div>
                         <div class="percentage">
                            <p>
-                              <a href="https://usa.visa.com/about-visa/visa-research.html">Visa Research, Systems Security Group </a>>, Palo Alto, CA. <br>
+                              <a href="https://usa.visa.com/about-visa/visa-research.html">Visa Research, Systems Security Group </a>, Palo Alto, CA. <br>
                               Team members: <a href="https://kcwang.io/"> Dr. Coby Wang (Mentor)</a>, and <a href="https://sites.google.com/site/arorasunpreetl">Dr. Sunpreet S. Arora (supervisor)</a> <br>
                               Developing solutions to account recovery problem in passwordless user authentication.
                            </p>
@@ -325,9 +327,9 @@
             </div>
             <h3>Publications</h3>
             <div class="section-top-border" id="publications">
-               <h4>
+               <h5>
                   <p class="text-muted">  2024 </p>
-               </h4>
+               </h5>
                <div class="progress-table-wrap" style="color: black;">
                   <div class="progress-table">
                      <div class="table-row" id="compact">
@@ -348,11 +350,11 @@
                         <p>
                            <b>Mazharul Islam</b>*, Marina Sanusi Bohuk*, Paul Chung, Thomas Ristenpart, Rahul Chatterjee  (*co-first authors) <br>
                            <i>“<a href="#">Araña: Discovering and Characterizing Password Guessing Attacks in Practice</a>"</i> <br>
-                           USENIX Security 2023, Acceptance rate = TBD. <br>
+                           USENIX Security 2023, Acceptance rate = 29%. <br>
                            <i class="fa fa-file-pdf-o" style="font-size: 24px;"></i> <a href="files/AranaUsenix23Islam.pdf">PDF</a>,
                            <img src="img/source_code.png" width="30">
                            <a href="https://github.com/islamazhar/Arana" > Source Code </a>
-                        <i class = "fa fa-file-video-o"> </i><a href="https://www.usenix.org/system/files/sec23_slides_islam-mazharul.pdf" > Slides </a>
+                        <i class = "fa fa-book"> </i><a href="https://www.usenix.org/system/files/sec23_slides_islam-mazharul.pdf" > Slides </a>
                            <!--                              <span style="font-size: 18px;">Code</span></a>, <i class="fa fa-newspaper-o"></i> -->
                            <a class="popup-with-zoom-anim" href="#arayna-cite"> <img src="img/cite.png" width="30"> BibTeX</a>
                         <div id="arayna-cite" class="zoom-anim-dialog mfp-hide custom-popup-window">
@@ -596,15 +598,16 @@
                   </div>
                </div>
             </div>
-            <h3>Miscellaneous</h3>
-            <div class="section-top-border" id="misc">
+          
+               <div class="progress-table-wrap" style="color: black;" id="personal">
+               <h3>Miscellaneous</h3>
                <ul>
-               <li>My wife <a href="https://ischool.wisc.edu/staff/arabi-salsabil/" target="_blank">Salsabil Arabi</a> is also pursuing her Ph.D. from UW-Madison. Her research interest is in the area of Data Science, and Machine Learning</li>
-               <li>In free time, I like driving and visiting national parks (we have some many in Wisconsin!). It makes me feel closer to the nature 😊 </li>
+               <li>My wife <a href="https://ischool.wisc.edu/staff/arabi-salsabil/" target="_blank">Salsabil Arabi</a> is also pursuing her Ph.D. from UW-Madison. Her research interest is in the area of data science, machine learning, and she trains model to predict breakthrough results in medical science.</li>
+               <li>In free time, I like driving and visiting national parks (we have so many in Wisconsin!). It makes me feel closer to the nature 😊 </li>
                <!-- <li>I used have a keen interest in Physics. But for better or for worse ended up doing my undergrad in Computer Science.</li> -->
             </ul>
                </div>
-         </div>
+            </div>
       </section>
    </body>
 </html>
