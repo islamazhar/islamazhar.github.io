@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en" class="gr__cseweb_ucsd_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> STELAR </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .btn {
+            background-color: DodgerBlue;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        /* Darker background on mouse-over */
+        .btn:hover {
+            background-color: RoyalBlue;
+        }
+    </style>
+
+    <script src="css/jquery-1.11.0.min.js"></script>
+    <script src="css/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // add a hash to the URL when the user clicks on a tab
+            $('a[data-toggle="tab"]').on('click', function(e) {
+                history.pushState(null, null, $(this).attr('href'));
+            });
+            // navigate to a tab when the history changes
+            window.addEventListener("popstate", function(e) {
+                var activeTab = $('[href=' + location.hash + ']');
+                if (activeTab.length) {
+                    activeTab.tab('show');
+                } else {
+                    $('a[href=#about]').tab('show');
+                }
+            });
+            $('a[href=#about]').tab('show');
+        })
+    </script>
+
+
+
+</head>
+
+
+
+
+<div class="container">
+    <div class="header">
+
+        <ul class="nav nav-pills pull-right" id="tabs">
+            <li class="active"><a href="#about" data-toggle="tab">about</a></li>
+            <li class=""><a href="#installation" data-toggle="tab">installation</a></li>
+            <li class=""><a href="#datasets" data-toggle="tab">datasets</a></li>
+            <!-- <li class=""><a href="#contributors" data-toggle="tab">contributors</a></li> !-->
+        </ul>
+        <h3><strong>Mazharul Islam</strong></h3>
+        
+        <div class="tab-content">
+
+
+            <div class="tab-pane active" id="about">
+<div class="card flex-row"><img class="card-img-left example-card-img-responsive img-thumbnail rounded float-left"  src="img/banner/home-right.jpg"/>
+  <div class="card-body">
+    <h4 class="card-title h5 h4-sm">Left image</h4>
+    <p class="card-text">Example text</p>
+  </div>
+</div>
+
+                <!-- <div class="col-lg-12">
+
+                    <h4>About Me</h4>
+                    <p>
+                        I am a  3rd year Ph.D. student at the University of Wisconsin-Madison in the department of computer science and a member of the <a href="https://madsp.cs.wisc.edu/" target="_blank">Madison Security and Privacy (MadS&P) research lab </a>. I did my M.Sc. in computer science from University of Wisconsin-Madison in the department of computer science in 2022, and before that my B.Sc. in computer science and engineering from Bangladesh University of Engineering and Technology (BUET) in 2017.
+   </span>
+                    </p> -->
+
+                    <h4>Availability </h4>
+                    <p>
+                        STELAR is freely available at <a href="https://github.com/islamazhar/STELAR">https://github.com/islamazhar/STELAR</a>
+                    </p>
+
+                    <h4>Background and Results</h4>
+                    <p>
+                        Species tree estimation is frequently based on phylogenomic approaches that use multiple genes from throughout
+                        the genome. However, estimating a species tree from a collection of gene trees can be complicated due to the presence
+                        of gene tree incongruence resulting from incomplete lineage sorting (ILS), which is modelled by the multi-species coalescent process.
+                        Maximum likelihood and Bayesian MCMC methods can potentially result in accurate trees, but they do not scale well to large datasets.
+                    </p>
+
+                    <p>
+                        We present STELAR (Species Tree Estimation by maximizing tripLet AgReement), a new fast and highly accurate statistically consistent coalescent-based method for estimating species trees from a collection of gene trees. 
+                        We formalized the constrained triplet consensus (CTC) problem and showed that the solution to the CTC problem is a statistically consistent estimate of the species tree under the multi-species coalescent (MSC) model. 
+                        STELAR is an efficient dynamic programming based solution to the CTC problem which is highly accurate and scalable. 
+                        We evaluated the accuracy of STELAR in comparison with SuperTriplets, which is an alternate fast and highly accurate triplet-based supertree method, and with MP-EST and ASTRAL – two of the most popular and accurate coalescent-based methods. 
+                        Experimental results suggest that STELAR matches the accuracy of ASTRAL and improves on MP-EST and SuperTriplets.
+                    </p>
+
+                    <p>
+                        Theoretical and empirical results (on both simulated and real biological datasets) suggest that  STELAR is a valuable technique for species tree estimation from gene tree distributions.
+                    </p>
+
+
+
+                    <h4>Acknowledgment</h4>
+                    <p>
+
+                        STELAR code uses code from the PhyloNet package by Luay Nakhleh
+                        <a href="https://bioinfocs.rice.edu/phylonet">(bioinfo.cs.rice.edu/phylonet)</a>.
+                        The Phylonet code base was previously used by DynaDup and ASTRAL (with permission from Authors),
+                        and STELAR is mostly based on DynaDup code base.
+
+                    </p>
+
+
+                    <h4>Bug Reports</h4>
+                    <p>
+                        We are always looking for ways to improve our codes. For any bugs please email at:
+                        <a href = "mailto: mazhar.buet11@gmail.com.">mazhar.buet11@gmail.com</a> </p>
+
+                    <h4>Citation</h4>
+                    If you use our code or STELAR tool in your research, please cite the following publication. <br>
+                    <table>
+                    <code>
+                        @article{islam2020stelar, <br>
+                        title={STELAR: A statistically consistent coalescent-based species tree estimation method by maximizing triplet consistency}, <br>
+                        author={Islam, Mazharul and Sarker, Kowshika and Das, Trisha and Reaz, Rezwana and Bayzid, Md Shamsuzzoha}, <br>
+                        journal={BMC Genomics}, <br>
+                        volume={21}, <br>
+                        number={1}, <br>
+                        pages={1--13}, <br>
+                        year={2020}, <br>
+                        publisher={BioMed Central} <br>
+                        }
+                    </code>
+                    </table>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="installation">
+                <div class="col-lg-12">
+
+                    <form method="get" action="https://github.com/islamazhar/STELAR/releases/download/v1.0/STELAR.jar">
+                        <button class="btn"><i class="fa fa-download"></i> Download STELAR</button>
+                    </form>
+
+                    <h4>How to run</h4>
+                    STELAR provides a jar file. You need to execute the jar file via command line. STELAR requires your machine to have java version <code>9.0.4</code>
+                    installed on your computer or later.
+                    <ul>
+                        <li><code>cd</code> to the location where you have downloaded the STELAR jar file. </li>
+                        <li>run the following command</li>
+                        <code>java -jar STELAR.jar -i < input-gene-tree-name >  -o < out-species-tree-name > </code> <br>
+                    </ul>
+                    <h4>Options</h4>
+                    <ul>
+                        <li>By default STELAR will run the heuristic version. To run the exact version just add <code>-xt</code> paramter.</li>
+                        Therefore to run the exact  version command should be <br>
+                        <code>java -jar STELAR.jar -i < input-gene-tree-name >  -o < out-species-tree-name > -xt</code>
+                        <li>To score the number of triplets in a given species tree run</li>
+                        <code>java -jar STELAR.jar -i < input-gene-tree-name >  -st < score-species-tree-name >  </code> <br>
+                    </ul>
+
+
+                </div>
+            </div>
+
+
+            <div class="tab-pane" id="datasets">
+                <div class="col-lg-12">
+                    <h3>Datasets</h3>
+                    We studied four collections of simulated datasets and real biological datasets. All of these datasets have been generated and analyzed in previous studies.
+                    The four simulated datasets are
+                    <ul>
+                        <li>11 taxon</li>
+                        <li>15 taxon</li>
+                        <li>37 taxon</li>
+                        <li>500 taxon</li>
+                    </ul>
+                    These simulated datasets can be found <a href="https://sites.google.com/eng.ucsd.edu/datasets/home?authuser=0">here</a>. For more details, please refer to <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-6519-y">our paper</a>.
+                </div>
+            </div>
+
+
+        </div> <!-- tab-content -->
+    </div> <!-- container -->
+
+
+    </body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
