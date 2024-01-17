@@ -155,11 +155,14 @@
                                 <h5>Recent News</h5>
                                     <div class="container">
                                        <div class="row">
-                                          <div class="col-xs-10">
-                                             <div class=table-wrapper>
+                                          <div class="col-xs-10 ">
+                                             <div class="table-wrapper small">
                                                 <table>
                                                    <tbody>
                                                       <code>
+                                                         <tr>
+                                                            <td><b>[Sep 23]</b> Excited to  participate and be awarded student travel grant from <a href="https://satml.org/#">saTML</a>. Thanks sponsors and organizers! </td>
+                                                         </tr>
                                                       <tr>
                                                          <td><b>[Sep 23]</b> Awarded student research grants from UW-Madison. </td>
                                                       </tr>
@@ -195,38 +198,53 @@
                      <h3>Research summary</h3>
                      <p>
                         I am a computer security and privacy researcher. 
-                        My research  focuses on designing secure systems and develop easy-to-use tools for online abuse detection and prevention.
+                        As a research, I focus on designing secure systems and develop easy-to-use tools for online abuse detection and prevention.
                         To achieve this, I develop novel applied cryptography and machine learning techniques, and derive useful security policies via empirical analysis.
                      </p>
                     <p>
-                      My primary research work is in the area of <code>modern user authentication</code>. In particular,  my work investigates how to safeguard users' online accounts against advanced attacks——all while meticulously striking a right balance amongst privacy, usability, security, and deployability related crucial issues of the underlying authentication scheme. My ongoing and past work have focused on addressing these issues of different types of user authentication widely used today such as <code>password</code>, <code>face authentication</code>, and <code>device bound authentication</code>.
+                      My primary research work is in the area of <mark>modern user authentication</mark>. In particular,  my work investigates how to safeguard users' online accounts against advanced attacks——all while carefully striking a right balance amongst privacy, usability, security, and deployability related crucial issues of the underlying authentication scheme. 
+                      </p>
+                      <p>
+                      My ongoing and past works have focused on addressing security, and privacy issues of different types of user authentication widely used today such as <mark>password-based</mark>, <mark>biometrics</mark>, and <mark>device bound authentication</mark>.
                     </p>
 
 
 
                     <!-- My recent research focus has been on the following topics: -->
                     <a class="btn btn-primary " data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="True" aria-controls="multiCollapseExample1">
-                     Password based User Authentication Projects <i class="bi bi-arrow-up-circle"></i> </a>
+                     Password based user authentication <i class="bi bi-arrow-up-circle"></i> </a>
                     <div class="collapse multi-collapse" id="multiCollapseExample1">
                      <div>
-                        <p>Publications: <a href="#migp">USENIX  Security '22a</a>, <a href="#gossamer">'22b</a>, <a href="#arana">'23</a></a></p>
+                        <p>Publications: <a href="#migp">USENIX  Security '22a</a>, <a href="#gossamer">'22b</a>, <a href="#arana">'23</a></a>, one under submission </p>
 
                          My work have focused on stopping attackers from launching password guessing attacks. Currently, I am working on developing robust defenses for malicious login detection. I am been advised by  <a href="https://pages.cs.wisc.edu/~chatterjee/">Prof. Rahul Chatterjee</a> (my Ph.D. advisor) and <a href="https://rist.tech.cornell.edu/papers.html" target="_blank"> Prof. Thomas Ristenpart </a> (from Cornell Tech) on these projects. </p>
                         </div>
                    </div>
                    <p></p>
                    <a class="btn btn-primary " data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="True" aria-controls="multiCollapseExample1">
-                     Passwordless User Authentication Projects <i class="bi bi-arrow-up-circle"></i> </a>
+                     Biometric user authentication <i class="bi bi-arrow-up-circle"></i> </a>
                     <div class="collapse multi-collapse" id="multiCollapseExample2">
                      <div>
-                   <p>Publications: <a href="#compact">ArXiv</a> </p>
-                   <p>I have worked on enabling privacy preserving detection of spoofing attacks against face-based user authentication/verification by developing a <i>MPC-friendly</i> scheme called <a href="#compact">"compact"</a>. Currently I am working on account recovery problem in FIDO2 based passworldless user authentication. 
-                     I have been collaborating with <a href="https://usa.visa.com/about-visa/visa-research/people.html#3581b4ac33"> Visa Research's </a> <i>Identity and Authentication Team </i> —— where I have interned twice —— in this line of work .
+                   <p>Publications: <a href="#compact">ArXiv</a> (under major revision) </p>
+                   <p>I have worked on enabling privacy preserving detection of spoofing attacks against face-based user authentication/verification by developing a <i>MPC-friendly</i> scheme called <a href="#compact">"compact"</a>. 
                     </p>
                   </div>
+                    </div>
+                    </div>
+                    <p></p>
 
+                  <a class="btn btn-primary " data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="True" aria-controls="multiCollapseExample1">
+                     Device bound user authentication <i class="bi bi-arrow-up-circle"></i> </a>
+                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                     <div>
+                   <p>Publications: <a href="#">Two projects under preparation</a> </p>
+                   <p>
+                     Currently I am working on account recovery problem in FIDO2 based passworldless user authentication. 
+                     I have been collaborating with <a href="https://usa.visa.com/about-visa/visa-research/people.html#3581b4ac33"> Visa Research's </a> <i>Identity and Authentication Team </i>—where I have interned twice— for this work.
+                   </p>
+                   <!-- <p>I have been working on different security aspects of <i>passkeys</i> which is introduced FIDO2 as  a usable alterative to device-bound passworldless user authentication, and have been adopted by major players such as Apple,Google, Amazon, and Meta. My work specifically looks at what are the next generation attacker will adapt to as we transition to password-less user authentication. 
+                     </p> -->
                   </div>
-               </div>
             </div>
          </div>
       </div>
@@ -359,15 +377,28 @@
                </h5> -->
                <div class="progress-table-wrap" style="color: black;">
                   <div class="progress-table">
-                     <div class="table-row" id="compact">
+                     <div class="table-row" id="real-time-mal">
                         <p>
-                           [1] <b>Mazharul Islam</b>, Sunpreet S. Arora, Rahul Chatterjee, Peter Rindal, Maliheh Shirvanian<br>
-                           <a href="https://arxiv.org/abs/2309.04664">Compact: Approximating Complex Activation Functions for Secure Computation</a>.<br>
-                           <i class="fa fa-file-pdf-o" style="font-size: 24px;"></i> <a href="https://arxiv.org/pdf/2309.04664.pdf">PDF</a>, Under Submission.<br>
+                           [1] <b>Mazharul Islam</b>*, Marina Sanusi Bohuk*,  Thomas Ristenpart, Rahul Chatterjee (*co-first authors) <br>
+                           <i><a href="#">“Detecting Malicious logins in the Presence of Adaptive Attackers in Real Time"</a> (title changed for anonymity)</i><br>
+                           <i class="fa fa-file-pdf-o" style="font-size: 24px;"></i> PDF, Under Submission.<br>
                         </p>
                      </div>
                   </div>
                </div>
+
+               <div class="progress-table-wrap" style="color: black;">
+                  <div class="progress-table">
+                     <div class="table-row" id="real-time-mal">
+                        <p>
+                           [2] <b>Mazharul Islam</b>, Sunpreet S. Arora, Rahul Chatterjee, Peter Rindal, Maliheh Shirvanian<br>
+                           <i><a href="https://arxiv.org/abs/2309.04664">“Compact: Approximating Complex Activation Functions for Secure Computation"</a>.<br></i>
+                           <i class="fa fa-file-pdf-o" style="font-size: 24px;"></i> <a href="https://arxiv.org/pdf/2309.04664.pdf">PDF</a>, Under Major revision.<br>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
                <!-- <h5>
                   <p class="text-muted"> 2023 </p>
                </h5> -->
@@ -375,7 +406,7 @@
                   <div class="progress-table">
                      <div class="table-row" id="arana">
                         <p>
-                           [2] <b>Mazharul Islam</b>*, Marina Sanusi Bohuk*, Paul Chung, Thomas Ristenpart, Rahul Chatterjee  (*co-first authors) <br>
+                           [3] <b>Mazharul Islam</b>*, Marina Sanusi Bohuk*, Paul Chung, Thomas Ristenpart, Rahul Chatterjee  (*co-first authors) <br>
                            <i>“<a href="#">Araña: Discovering and Characterizing Password Guessing Attacks in Practice</a>"</i> <br>
                            USENIX Security 2023, Acceptance rate = 29%. <br>
                            <i class="fa fa-file-pdf-o" style="font-size: 24px;"></i> <a href="files/AranaUsenix23Islam.pdf">PDF</a>,
@@ -412,7 +443,7 @@
                   <div class="progress-table">
                      <div class="table-row" id="gossamer">
                         <p>
-                           [3] Marina Sanusi Bohuk, <b>Mazharul Islam</b>, Suleman Ahmad, Michael Swift, Thomas Ristenpart, Rahul Chatterjee <br>
+                           [4] Marina Sanusi Bohuk, <b>Mazharul Islam</b>, Suleman Ahmad, Michael Swift, Thomas Ristenpart, Rahul Chatterjee <br>
                            <i>“<a href="https://www.usenix.org/conference/usenixsecurity22/presentation/sanusi-bohuk">Gossamer: Securely Measuring Password-based Logins</a>"</i> <br>
                            USENIX Security 2022, Acceptance rate = 17.2%. <br>
                            <i class="fa fa-file-pdf-o" style="font-size: 24px;"></i> <a href="files/gossamer.pdf">PDF</a>,
@@ -445,7 +476,7 @@
                   <div class="progress-table">
                      <div class="table-row" id="migp">
                         <p>
-                           [4] Bijeeta Pal, <b>Mazharul Islam</b>, Marina Sanusi Bohuk, Nick Sullivan, Luke Valenta, Tara Whalen, Christopher Wood, Thomas Ristenpart,
+                           [5] Bijeeta Pal, <b>Mazharul Islam</b>, Marina Sanusi Bohuk, Nick Sullivan, Luke Valenta, Tara Whalen, Christopher Wood, Thomas Ristenpart,
                            Rahul Chattejee <br>
                            <i><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/pal">"Might I Get Pwned: A Second Generation Compromised Credential Checking Service"</a></i> <br>
                            USENIX Security 2022, Acceptance rate = 17.2%. <br>
@@ -482,7 +513,7 @@
                   <div class="progress-table">
                      <div class="table-row">
                         <p>
-                           [5] <b>Mazharul Islam</b>, Sazzadur Rahaman, Na Meng, Behnaz Hassanshahi, Padmanabhan Krishnan, Danfeng (Daphne) Yao. <br>
+                           [6] <b>Mazharul Islam</b>, Sazzadur Rahaman, Na Meng, Behnaz Hassanshahi, Padmanabhan Krishnan, Danfeng (Daphne) Yao. <br>
                            <i><a href="https://ieeexplore.ieee.org/document/9230007">"Coding Practices and Recommendations of Spring Security for Enterprise Applications"</a></i>. <br>
                            IEEE Secure Development Conference. Atlanta, GA, September 2020. Acceptance rate = 39%<br>
                            <i class="fa fa-file-pdf-o" style="font-size: 24px;"></i>  <a href="files/IslamCoding.pdf">PDF</a>, <i class = "fa fa-file-video-o"></i> <a href="https://www.youtube.com/watch?v=cBc7fc3eRCs">Presentation Video</a>
