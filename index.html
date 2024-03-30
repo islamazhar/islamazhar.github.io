@@ -198,54 +198,58 @@
                      <h3>Research summary</h3>
                      <p>
                         I am a computer security and privacy researcher. 
-                        As a researcher, I focus on designing secure systems and develop easy-to-use tools for online abuse detection and prevention.
-                        To achieve this, I develop novel applied cryptography and machine learning techniques, and derive useful security policies via empirical analysis.
+                        As a researcher, I focus on designing secure systems that can counteract attacks 
+                        To achieve this, I develop novel applied cryptography protocols, machine learning techniques, and derive useful security policies via empirical analysis. 
                      </p>
-                    <p>
-                      My primary research work is in the area of <mark>modern user authentication</mark>. In particular,  my work investigates how to safeguard users' online accounts against advanced attacks——all while carefully striking a right balance amongst privacy, usability, security, and deployability related crucial issues of the underlying authentication scheme. 
-                      </p>
-                      <p>
-                      My ongoing and past works have focused on addressing security, and privacy issues of different types of user authentication widely used today such as <mark>password-based</mark>, <mark>biometrics</mark>, and <mark>device bound authentication</mark>.
-                    </p>
+                     <p>
+                        Feel free to click on the following buttons to know details about research work on user authentication and privacy preserving machine learning.
+                     </p>
+                                        <!-- My recent research focus has been on the following topics: -->
+                                        <a class="btn btn-primary " data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="True" aria-controls="multiCollapseExample1">
+                                          User authentication <i class="bi bi-arrow-up-circle"></i> </a>
+                                         <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                          <div>
+                                             <p><b>Publications:</b> <a href="#migp">USENIX  Security '22a</a>, <a href="#gossamer">'22b</a>, <a href="#arana">'23</a></a>, two under submission </p>
+
+                                             My primary research work is in the area of <mark>modern user authentication</mark>. In particular,  my work investigates how to safeguard users' online accounts against advanced attacks——all while carefully striking a right balance amongst privacy, usability, security, and deployability related crucial issues of the underlying authentication scheme. I have worked on both password and passwordless user authentication.
+                                          </p>
+                                          <p>
+                                          <b>Password-based user authentication:</b> My ongoing and past works have focused on addressing security, and privacy issues of different types of user authentication widely used today such as <mark>password-based</mark>, and <mark>passwordless (device bound) authentication</mark>.
+
+                     
+                                              My work have focused on stopping attackers from launching password guessing attacks. Currently, I am working on developing robust defenses for malicious login detection. I am been advised by  <a href="https://pages.cs.wisc.edu/~chatterjee/">Prof. Rahul Chatterjee</a> (my Ph.D. advisor) and <a href="https://rist.tech.cornell.edu/papers.html" target="_blank"> Prof. Thomas Ristenpart </a> (from Cornell Tech) on these projects. </p>
+
+
+                     
+                  
+                                          <b>Passwordless user authentication:</b>
+                                          We have been observing a major force in transitioning towards passwordless user authentication via passkeys. My ongoing work have focused on 
+                                          solving security problems of passkeys and FIDO2-based user authentication alike.  
+                                          I have been collaborating with <a href="https://usa.visa.com/about-visa/visa-research/people.html#3581b4ac33"> Visa Research's </a> <i>Identity and Authentication Team </i>—where I have interned twice — for this work.
+                                        </p>
+                                        <!-- <p>I have been working on different security aspects of <i>passkeys</i> which is introduced FIDO2 as  a usable alterative to device-bound passworldless user authentication, and have been adopted by major players such as Apple,Google, Amazon, and Meta. My work specifically looks at what are the next generation attacker will adapt to as we transition to password-less user authentication. 
+                                          </p> -->
+                                       </div>
+                                    </div>
+                                    <p></p>
+                                    <a class="btn btn-primary " data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="True" aria-controls="multiCollapseExample1">
+                                       Privacy preserving machine learning <i class="bi bi-arrow-up-circle"></i> </a>
+                                      <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                       <div>
+                                     <p>Publications: <a href="#compact">PETS 2024</a> </p>
+                                     <p>I have also being working at the intersection of machine learning and cryptography to address the problem of secure training, and private inference. 
+                                       My recent work <a href="#compact">"compact"</a> have addressed how to make complex activation functions used in machine learning secure multi-party computation (MPC) friendly.  
+                                      </p>
+                                    </div>
+                                      </div>
+                                      </div>
+                                      <p></p>
+                                       
+                    
 
 
 
-                    <!-- My recent research focus has been on the following topics: -->
-                    <a class="btn btn-primary " data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="True" aria-controls="multiCollapseExample1">
-                     Password based user authentication <i class="bi bi-arrow-up-circle"></i> </a>
-                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                     <div>
-                        <p>Publications: <a href="#migp">USENIX  Security '22a</a>, <a href="#gossamer">'22b</a>, <a href="#arana">'23</a></a>, one under submission </p>
-
-                         My work have focused on stopping attackers from launching password guessing attacks. Currently, I am working on developing robust defenses for malicious login detection. I am been advised by  <a href="https://pages.cs.wisc.edu/~chatterjee/">Prof. Rahul Chatterjee</a> (my Ph.D. advisor) and <a href="https://rist.tech.cornell.edu/papers.html" target="_blank"> Prof. Thomas Ristenpart </a> (from Cornell Tech) on these projects. </p>
-                        </div>
-                   </div>
-                   <p></p>
-                   <a class="btn btn-primary " data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="True" aria-controls="multiCollapseExample1">
-                     Biometric user authentication <i class="bi bi-arrow-up-circle"></i> </a>
-                    <div class="collapse multi-collapse" id="multiCollapseExample2">
-                     <div>
-                   <p>Publications: <a href="#compact">ArXiv</a> (under major revision) </p>
-                   <p>I have worked on enabling privacy preserving detection of spoofing attacks against face-based user authentication/verification by developing a <i>MPC-friendly</i> scheme called <a href="#compact">"compact"</a>. 
-                    </p>
-                  </div>
-                    </div>
-                    </div>
-                    <p></p>
-
-                  <a class="btn btn-primary " data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="True" aria-controls="multiCollapseExample1">
-                     Device bound user authentication <i class="bi bi-arrow-up-circle"></i> </a>
-                    <div class="collapse multi-collapse" id="multiCollapseExample3">
-                     <div>
-                   <p>Publications: <a href="#">Two projects under preparation</a> </p>
-                   <p>
-                     Currently I am working on account recovery problem in FIDO2 based passworldless user authentication. 
-                     I have been collaborating with <a href="https://usa.visa.com/about-visa/visa-research/people.html#3581b4ac33"> Visa Research's </a> <i>Identity and Authentication Team </i>—where I have interned twice— for this work.
-                   </p>
-                   <!-- <p>I have been working on different security aspects of <i>passkeys</i> which is introduced FIDO2 as  a usable alterative to device-bound passworldless user authentication, and have been adopted by major players such as Apple,Google, Amazon, and Meta. My work specifically looks at what are the next generation attacker will adapt to as we transition to password-less user authentication. 
-                     </p> -->
-                  </div>
-            </div>
+            
          </div>
       </div>
 
@@ -311,14 +315,29 @@
                            </p>
                         </div>
                      </div>
+                     
                      <div class="table-row">
                         <div class="serial">
                            <img style="width: 50px;" src="img/logos/VR.png" alt="flag">
                         </div>
-                        <div class="country">Research Intern, <br> May 2023 - August 2023 </div>
+                        <div class="country">Staff Research Scientist, Intern <br> May 2024 - August 2024 </div>
                         <div class="percentage">
                            <p>
-                              <a href="https://usa.visa.com/about-visa/visa-research.html">Visa Research, Systems Security Group </a>, Palo Alto, CA. <br>
+                              <a href="https://usa.visa.com/about-visa/visa-research.html">Visa Research, Identity and Authentication Group </a>, Foster City, CA. <br>
+                              Team members: <a href="https://kcwang.io/"> Dr. Coby Wang (Mentor)</a>, and <a href="https://sites.google.com/site/arorasunpreetl">Dr. Sunpreet S. Arora (supervisor)</a> <br>
+                              
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="table-row">
+                        <div class="serial">
+                           <img style="width: 50px;" src="img/logos/VR.png" alt="flag">
+                        </div>
+                        <div class="country">PhD Research Intern, <br> May 2023 - August 2023 </div>
+                        <div class="percentage">
+                           <p>
+                              <a href="https://usa.visa.com/about-visa/visa-research.html">Visa Research, Identity and Authentication Group </a>, Palo Alto, CA. <br>
                               Team members: <a href="https://kcwang.io/"> Dr. Coby Wang (Mentor)</a>, and <a href="https://sites.google.com/site/arorasunpreetl">Dr. Sunpreet S. Arora (supervisor)</a> <br>
                               Developing solutions to account recovery problem in passwordless user authentication.
                            </p>
@@ -328,7 +347,7 @@
                         <div class="serial">
                            <img style="width: 50px;" src="img/logos/VR.png" alt="flag">
                         </div>
-                        <div class="country">Research Intern, <br> May 2022 - August 2022 </div>
+                        <div class="country">PhD Research Intern, <br> May 2022 - August 2022 </div>
                         <div class="percentage">
                            <p>
                               <a href="https://usa.visa.com/about-visa/visa-research.html">Visa Research, Systems Security Group </a>, Palo Alto, CA. <br>
@@ -661,7 +680,7 @@
                <div class="progress-table-wrap" style="color: black;" id="personal">
                <h3>Miscellaneous</h3>
                <ul>
-               <li>My wife <a href="https://ischool.wisc.edu/staff/arabi-salsabil/" target="_blank">Salsabil Arabi</a> is also pursuing her Ph.D. from UW-Madison. Her research interest is in the area of data science, machine learning, and she trains models to predict breakthrough results in medical science in their early stage.</li>
+               <li>My wife <a href="https://ischool.wisc.edu/staff/arabi-salsabil/" target="_blank">Salsabil Arabi</a> is also a graduate student at UW-Madison. Her research interest is in the area of data science, machine learning, and she trains models to predict breakthrough results in medical science in their early stage.</li>
                <li>In free time, I like driving and visiting national parks (we have so many in Wisconsin!). It makes me feel closer to the nature 😊 </li>
                <!-- <li>I used have a keen interest in Physics. But for better or for worse ended up doing my undergrad in Computer Science.</li> -->
             </ul>
