@@ -10,7 +10,7 @@ div.image_container img {
     height: 100%;
 }
 .table-wrapper {
-    max-height: 300px;
+    max-height: 350px;
     overflow: auto;
     display:inline-block;
   }
